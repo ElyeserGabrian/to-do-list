@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>To do List - Elyeser Gabrian</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
     <div class="content-add-item">
         <!-- Input e Botao-->
         <input type="text" placeholder="Digite sua nova Task" id="input-new-task">
-        <button id="btn-new-task" title="Clique aqui para adicionar uma nova Task">
+        <button id="btn-new-task" title="Clique aqui para adicionar uma nova Task" onclick="adicionaTask()">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
               </svg>
@@ -21,7 +22,7 @@
     </div>
     <div class="content-body">
         <ul id="to-do-list"> 
-            <li>teste <button>oi</button></li>
+
         </ul>
 
     </div>
